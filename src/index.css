@@ -1,3 +1,53 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.bg-primary {
+    background-color: linear-gradient(169.4deg, #3984F4 -6.01%, #0CD3FF 36.87%, #2F7CF0 78.04%, #0E65E8 103.77%);;
+  }
+  
+  .text-blue-gradient {
+    background: -webkit-linear-gradient(
+      283deg,
+      #3984f4,
+      #0cd3ff,
+      #2f7cf0,
+      #0e65e8
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+
+@layer base {
+    html {
+      font-family: "Poppins", system-ui, sans-serif;
+     
+    }
+
+  }
+  
+@layer components {
+    .navbar_link-item{
+        @apply text-lg font-normal xl:text-xl;
+    }
+    .btn{
+        @apply rounded-full py-2 px-6 xl:py-4 xl:px-12 font-poppins font-medium cursor-pointer text-lg text-center flex items-center justify-center gap-2;
+    }
+    .btn-primary{
+        @apply bg-primary text-white
+    }
+    .btn-secondary{
+        @apply bg-transparent border border-primary text-primary;
+    }
+    .hero__subheading{
+        @apply font-poppins font-semibold text-sm lg:text-xl text-center lg:text-start text-primary uppercase;
+    }
+    .hero__heading{
+        @apply font-poppins font-bold text-4xl lg:text-5xl text-center lg:text-start max-w-[320px] lg:max-w-[450px] w-full text-black mt-3 lg:mt-5;
+    }
+    .hero__text{
+        @apply font-poppins font-normal hidden lg:block lg:text-lg mt-8  text-gray ;
+    }
+}
