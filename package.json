@@ -12,10 +12,12 @@
     "classnames": "^2.3.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-easy-emoji": "^1.8.1",
     "react-icons": "^4.7.1",
     "react-onclickoutside": "^6.12.2",
     "react-responsive": "^9.0.2",
-    "react-svg": "^16.1.4"
+    "react-svg": "^16.1.4",
+    "recharts": "^2.4.3"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",

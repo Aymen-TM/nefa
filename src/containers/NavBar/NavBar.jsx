@@ -56,7 +56,7 @@ const NavBar = () => {
     <nav className={classNames('fixed w-full transition-all duration-700 z-10 ', {
       'bg-white shadow-lg ': backgroundwhite
     })}>
-    <div className='flex container mx-auto py-12 px-8 lg:py-6 lg:px-0 ' >
+    <div className='flex container mx-auto py-12 px-6 lg:py-6 lg:px-0 ' >
       <div className='flex justify-between items-center w-full lg:w-auto'>
         <img src={logo} alt='logo' />
         <div className="md:hidden text-2xl">

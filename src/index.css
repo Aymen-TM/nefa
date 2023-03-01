@@ -45,9 +45,9 @@
         @apply font-poppins font-semibold text-sm lg:text-xl text-center lg:text-start text-primary uppercase;
     }
     .hero__heading{
-        @apply font-poppins font-bold text-4xl lg:text-5xl text-center lg:text-start max-w-[320px] lg:max-w-[450px] w-full text-black mt-3 lg:mt-5;
+        @apply font-poppins font-bold text-4xl lg:text-6xl text-center lg:text-start max-w-[320px] lg:max-w-[500px] w-full text-black mt-3 lg:mt-5;
     }
     .hero__text{
-        @apply font-poppins font-normal hidden lg:block lg:text-lg mt-8  text-gray ;
+        @apply font-poppins font-light hidden lg:block lg:text-lg mt-8  text-gray ;
     }
 }
