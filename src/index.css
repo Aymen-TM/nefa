@@ -19,6 +19,10 @@
     -webkit-text-fill-color: transparent;
   }
 
+.partners__bg{
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.7) -9.25%, rgba(255, 255, 255, 0.6) -9.25%, rgba(244, 249, 255, 0.7) 108.74%);
+}
+
 
 @layer base {
     html {
@@ -49,5 +53,19 @@
     }
     .hero__text{
         @apply font-poppins font-light hidden lg:block lg:text-lg mt-8  text-gray ;
+    }
+
+    .buytrade__heading{
+      @apply font-poppins font-semibold text-2xl lg:text-4xl text-black lg:max-w-[468px];
+    }
+    .buytrade__text{
+      @apply font-poppins font-normal text-sm lg:text-lg mt-5 lg:mt-8 max-w-[307px] text-gray ;
+    }
+
+    .partners__heading{
+      @apply font-poppins text-center font-semibold text-xl lg:text-3xl  text-black ;
+    }
+    .partners__text{
+      @apply font-poppins  text-center font-normal text-sm lg:text-lg  text-gray mt-4 max-w-[280px];
     }
 }
