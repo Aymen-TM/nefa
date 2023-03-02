@@ -37,9 +37,7 @@ const BuyTrade = () => {
         </div>
         </div>
         <div className='flex-1'>
-          <Fade up duration={1000}>
             <img src={ctaimage} alt='cta image' />
-          </Fade>
         </div>
       </div>
     </section>

@@ -1,7 +1,6 @@
 import React from 'react'
 import security from '../../assets/security.svg'
 import { AiFillCheckCircle } from 'react-icons/ai'
-import { Fade } from 'react-reveal'
 
 
 const IndustrySecurity = () => {
