@@ -1,7 +1,7 @@
 import React from 'react';
 import { BsArrowRight } from 'react-icons/bs';
 
-import logo from '../../assets/logo.png';
+import logo from '../../assets/logo.svg'
 import PrimaryButton from '../../components/buttons/PrimaryButton'
 
 

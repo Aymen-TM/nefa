@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import logo from '../../assets/logo.png'
+import logo from '../../assets/logo.svg'
 import PrimaryButton from '../../components/buttons/PrimaryButton'
 import SecondaryButton from '../../components/buttons/SecondaryButton'
 import {AiOutlineMenu,AiOutlineClose} from 'react-icons/ai'
