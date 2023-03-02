@@ -7,7 +7,6 @@ import BlueCircleParticle from '../../components/particals/BlueCircleParticle'
 import OrangeCircleParticle from '../../components/particals/OrangeCircleParticle'
 import StarParticle from '../../components/particals/StarParticle'
 import PurpleCircleParticle from '../../components/particals/PurpleCircleParticle'
-import { Fade } from 'react-reveal';
 const Hero = () => {
   return (
     <div className='  py-32 flex items-center justify-center relative  bg-primary bg-opacity-5 overflow-hidden'>
@@ -30,9 +29,7 @@ const Hero = () => {
         <div className=' hidden lg:block relative '>
           <BlueCircleParticle className="absolute top-20 left-11 duration-[5s]" />
           <OrangeCircleParticle className="absolute bottom-1/4 right-0" />
-          <Fade up duration={1000}>
             <img src={heroimage}  alt="hero image"/>
-          </Fade>
         </div>
       </section>
     </div>

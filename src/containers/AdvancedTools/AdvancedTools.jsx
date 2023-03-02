@@ -1,5 +1,4 @@
 import React from 'react'
-import { Fade } from 'react-reveal'
 import tools from '../../assets/tools.svg'
 import SecondaryButton from '../../components/buttons/SecondaryButton'
 
@@ -27,9 +26,7 @@ const AdvancedTools = () => {
                 </div>
             </div>
             <div className='flex-1'>
-            <Fade up duration={1000}>
                 <img src={tools} alt="tools" />
-            </Fade>
             </div>
         </div>
     </div>

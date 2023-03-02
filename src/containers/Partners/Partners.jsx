@@ -1,6 +1,4 @@
 import React from 'react'
-import { Fade } from 'react-reveal'
-
 import partner1 from '../../assets/partner1.png'
 import partner2 from '../../assets/partner2.png'
 import partner3 from '../../assets/partner3.png'
@@ -16,24 +14,19 @@ const Partners = () => {
             </div>
             <div className='flex flex-col justify-center items-center lg:flex-row'>
                 <div className='max-w-[155px] lg:max-w-[300px]'>
-                    <Fade up duration={1000}>
+                    
                         <img src={partner1} alt='partner' />
-                    </Fade>
                 </div>
                 <div className='max-w-[155px] lg:max-w-[300px]'>
-                    <Fade up duration={1000}>
                         <img src={partner2} alt='partner' />
-                    </Fade>
                 </div>
                 <div className='max-w-[155px] lg:max-w-[300px]'>
-                    <Fade up duration={1000}>
+                    
                         <img src={partner3} alt='partner' />
-                    </Fade>
                 </div>
                 <div className='max-w-[155px] lg:max-w-[300px]'>
-                    <Fade up duration={1000}>
+                    
                         <img src={partner4} alt='partner' />
-                    </Fade>
                 </div>
             </div>
         </div>

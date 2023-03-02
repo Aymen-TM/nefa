@@ -1,7 +1,6 @@
 import React from 'react'
 import cards from '../../assets/cards.svg'
 import {AiFillCheckCircle} from 'react-icons/ai'
-import { Fade } from 'react-reveal'
 import SecondaryButton from '../../components/buttons/SecondaryButton'
 
 const Cta = () => {
@@ -9,9 +8,7 @@ const Cta = () => {
     <div className='mt-10'>
         <div className='container gap-10 grid grid-cols-1 lg:grid-cols-2 p-6'>
             <div>
-                <Fade up duration={1000}>
-                    <img src={cards} className=" w-[500px]"/>
-                </Fade>
+                <img src={cards} className=" w-[500px]"/>
             </div>
             <div>
                 <h2 className='secion__heading max-w-[263px] lg:max-w-[404px]'>Introducing the <span className='text-blue-gradient'>NEFA</span>  Credit Card</h2>

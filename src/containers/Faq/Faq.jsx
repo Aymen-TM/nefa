@@ -1,11 +1,7 @@
 import classNames from 'classnames';
 import React, { useState } from 'react';
 import { BsChevronUp } from 'react-icons/bs';
-
-
-
 import faq from '../../assets/faq.svg';
-import { Fade } from 'react-reveal';
 
 const FaqItem = ({ open, title, children }) => {
   const [isOpen, setIsOpen] = useState(open ? true : false);
@@ -41,9 +37,7 @@ export default function FaqSection() {
     <section className="container mx-auto px-5 py-32">
       <div className="grid md:grid-cols-2">
         <div className="mb-4">
-          <Fade up duration={1000}>
             <img src={faq} alt="FAQ" />
-          </Fade>
         </div>
         <div className="flex justify-center">
           <div className="">
