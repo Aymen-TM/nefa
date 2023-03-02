@@ -75,4 +75,16 @@
     .cta__text{
       @apply font-poppins   font-normal text-sm lg:text-lg  text-gray mt-4 max-w-[290px] lg:max-w-[510px];
     }
+    .tools__heading{
+      @apply font-poppins font-semibold text-2xl lg:text-4xl text-black ;
+    }
+    .tools__text{
+      @apply font-poppins   font-normal text-sm lg:text-lg  text-gray mt-4 max-w-[290px] lg:max-w-[510px];
+    }
+    .tools__feature-title{
+      @apply font-poppins   font-bold text-base lg:text-lg  text-black;
+    }
+    .tools__feature-description{
+      @apply font-poppins   font-normal text-base lg:text-lg text-gray lg:max-w-[473px];
+    }
 }

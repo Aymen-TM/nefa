@@ -2,7 +2,7 @@ import React from 'react'
 import PrimaryButton from '../../components/buttons/PrimaryButton'
 import SecondaryButton from '../../components/buttons/SecondaryButton'
 import {BiChevronDown} from 'react-icons/bi'
-import heroimage from '../../assets/heroimage.png'
+import heroimage from '../../assets/heroimage.svg'
 import BlueCircleParticle from '../../components/particals/BlueCircleParticle'
 import OrangeCircleParticle from '../../components/particals/OrangeCircleParticle'
 import StarParticle from '../../components/particals/StarParticle'
@@ -29,7 +29,7 @@ const Hero = () => {
         <div className=' hidden lg:block relative '>
           <BlueCircleParticle className="absolute top-20 left-11 duration-[5s]" />
           <OrangeCircleParticle className="absolute bottom-1/4 right-0" />
-          <img src={heroimage} className="w-full object-contain" alt="hero image"/>
+          <img src={heroimage} className="max-w-[600px] " alt="hero image"/>
         </div>
       </section>
     </div>

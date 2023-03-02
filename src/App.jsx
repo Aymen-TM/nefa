@@ -1,3 +1,4 @@
+import AdvancedTools from "./containers/AdvancedTools/AdvancedTools"
 import BuyTrade from "./containers/BuyTrade/BuyTrade"
 import CryptoTable from "./containers/CryptoTable/CrtyptoTable"
 import Cta from "./containers/CTA/Cta"
@@ -16,6 +17,7 @@ function App() {
       <BuyTrade />
       <Partners />
       <Cta />
+      <AdvancedTools />
     </div>
   )
 }
