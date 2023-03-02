@@ -1,4 +1,5 @@
 import React from 'react'
+import { Fade } from 'react-reveal'
 import ctaimage from '../../assets/ctaimage.png'
 
 import Select from '../Select'
@@ -9,8 +10,8 @@ const BuyTrade = () => {
       <div className=' container mx-auto gap-10 flex flex-col-reverse lg:flex-row  '>
         <div className='flex-1'>
           <div className='flex flex-col justify-center gap-4 md:gap-6 mb-6 '>
-            <h1 className='buytrade__heading'>Buy & trade on the <br /> original crypto exchange.</h1>
-            <p className='buytrade__text'>Buy now and get 40% extra bonus Minimum pre-sale amount 25 Crypto Coin. We accept BTC crypto-currency</p>
+            <h1 className='section__heading font-semibold text-3xl lg:max-w-[468px]'>Buy & trade on the <br /> original crypto exchange.</h1>
+            <p className='section__text max-w-[307px]'>Buy now and get 40% extra bonus Minimum pre-sale amount 25 Crypto Coin. We accept BTC crypto-currency</p>
           <div>
           <form onSubmit={()=>{}}>
               <div className="flex justify-between gap-4 md:gap-6 mb-6">
@@ -37,7 +38,9 @@ const BuyTrade = () => {
         </div>
         </div>
         <div className='flex-1'>
-          <img src={ctaimage} alt='cta image' />
+          <Fade up duration={1000}>
+            <img src={ctaimage} alt='cta image' />
+          </Fade>
         </div>
       </div>
     </section>

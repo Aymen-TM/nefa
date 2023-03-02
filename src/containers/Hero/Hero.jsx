@@ -7,6 +7,7 @@ import BlueCircleParticle from '../../components/particals/BlueCircleParticle'
 import OrangeCircleParticle from '../../components/particals/OrangeCircleParticle'
 import StarParticle from '../../components/particals/StarParticle'
 import PurpleCircleParticle from '../../components/particals/PurpleCircleParticle'
+import { Fade } from 'react-reveal';
 const Hero = () => {
   return (
     <div className='  py-32 flex items-center justify-center relative  bg-primary bg-opacity-5 overflow-hidden'>
@@ -16,7 +17,7 @@ const Hero = () => {
       <section className='container grid md:grid-cols-2'>
         <div >
           <div className='flex flex-col items-center justify-center lg:items-start relative'>
-            <p className='hero__subheading'>SIGN UP TODAY</p>
+            <p className='subheading'>SIGN UP TODAY</p>
             <h1 className='hero__heading'>The World’s <span className='text-blue-gradient'>Fastest Growing</span> Crypto Web App <StarParticle className=" hidden lg:block absolute -top-0 right-20 duration-[5s]" /></h1>
             <p className='hero__text'>Buy and sell 200+ cryptocurrencies with 20+ flat currencies using bank transfers or your credit/debit card.</p>
             <PurpleCircleParticle className="absolute hidden lg:block -bottom-40 -left-20" />
@@ -29,7 +30,9 @@ const Hero = () => {
         <div className=' hidden lg:block relative '>
           <BlueCircleParticle className="absolute top-20 left-11 duration-[5s]" />
           <OrangeCircleParticle className="absolute bottom-1/4 right-0" />
-          <img src={heroimage} className="max-w-[600px] " alt="hero image"/>
+          <Fade up duration={1000}>
+            <img src={heroimage}  alt="hero image"/>
+          </Fade>
         </div>
       </section>
     </div>
