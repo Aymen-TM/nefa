@@ -68,4 +68,11 @@
     .partners__text{
       @apply font-poppins  text-center font-normal text-sm lg:text-lg  text-gray mt-4 max-w-[280px];
     }
+
+    .cta__heading{
+      @apply font-poppins font-semibold text-2xl lg:text-4xl text-black max-w-[263px] lg:max-w-[404px];
+    }
+    .cta__text{
+      @apply font-poppins   font-normal text-sm lg:text-lg  text-gray mt-4 max-w-[290px] lg:max-w-[510px];
+    }
 }
