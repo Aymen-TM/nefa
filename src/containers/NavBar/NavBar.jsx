@@ -76,10 +76,10 @@ const NavBar = () => {
               <div className="h-screen left-0 bg-black bg-opacity-30" onClick={()=>{handleBlackScreenClick}}>
                 <div className="z-20 shadow-xl bg-white p-6">
                   <div className="gap-4 flex mb-6">
-                    <SecondaryButton className="w-full">
+                    <SecondaryButton>
                       Sign In
                     </SecondaryButton>
-                    <PrimaryButton className="w-full">
+                    <PrimaryButton >
                       Sign Up
                     </PrimaryButton>
                   </div>

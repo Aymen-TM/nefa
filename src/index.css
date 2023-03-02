@@ -41,7 +41,7 @@
         @apply bg-primary text-white
     }
     .btn-secondary{
-        @apply bg-transparent border border-primary text-primary;
+        @apply bg-transparent  border border-primary text-primary;
     }
     .subheading{
         @apply  font-semibold text-sm lg:text-xl text-center lg:text-start text-primary uppercase;
