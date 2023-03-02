@@ -1,6 +1,6 @@
 import React from 'react'
 import { Fade } from 'react-reveal'
-import ctaimage from '../../assets/ctaimage.png'
+import ctaimage from '../../assets/buytrade.svg'
 
 import Select from '../Select'
 
