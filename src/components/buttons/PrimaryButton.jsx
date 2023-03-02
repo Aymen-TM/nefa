@@ -1,8 +1,9 @@
+import classNames from 'classnames'
 import React from 'react'
 
-const PrimaryButton = ({children}) => {
+const PrimaryButton = ({children,className}) => {
   return (
-    <div className='btn btn-primary'>{children}</div>
+    <div className={classNames("btn btn-primary",className)}>{children}</div>
   )
 }
 
